@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
-    "start": "http-server dist/",
+    "start": "yarn build && http-server dist/",
     "lint": "vue-cli-service lint",
     "cy:record": "cypress run --env RECORD=1",
     "cy:run": "cypress run",
