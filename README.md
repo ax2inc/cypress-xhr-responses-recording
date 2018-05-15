@@ -2,6 +2,8 @@
 
 This is as simple project that showcases a way of dynamically saving XHR responses as JSON fixtures while running tests and using these fixtures to stub requests in subsequent tests.
 
+This was created as a supplement to a Medium article that you can read here: [https://medium.com/ax2-inc/dynamic-xhr-responses-recording-stubbing-with-cypress-9257d4f730cd](https://medium.com/ax2-inc/dynamic-xhr-responses-recording-stubbing-with-cypress-9257d4f730cd)
+
 To try this out, clone the project and install its dependencies:
 
 ```sh
